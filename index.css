@@ -1,0 +1,184 @@
+body {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(79, 39, 223) 0%, rgba(24,22,39,1) 90% );
+    overflow-x: hidden;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+header {
+    height: 5px;
+    background: #000;
+}
+
+footer {
+    height: 5px;
+    background-color: #000;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#container-perfil {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#name {
+    font-size: 24px;
+    text-align: center;
+}
+
+#perfil {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+#title {
+    margin-left: 20%;
+    margin-top: 8%;
+    font-size: 44px;
+}
+
+
+#container-aboutme {
+    width: 100%;
+    margin-top: 7%;
+}
+
+
+#wrapper-aboutme {
+    margin-left: 20%;
+}
+
+#title-aboutme {
+    font-size: 34px;
+}
+
+
+#paragraph-aboutme {
+    font-size: 22px;
+    width: 30%;
+}
+
+
+#container-contact {
+    width: 100%;
+    margin-top: 10%;
+}
+
+#wrapper-contact {
+    margin-left: 60%;
+}
+
+#title-contact {
+    font-size: 34px;
+}
+
+#list-contact {
+    list-style: none;
+}
+
+.item-contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-contact {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-contact {
+    width: 30px;
+    height: 30px;
+}
+
+
+#container-projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+#title-projects {
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 5%;
+}
+
+#wrapper-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.wrapper-item-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-item-projects {
+    font-size: 32px;
+}
+
+#paragraph-item-projects {
+    font-size: 24px;
+}
+
+
+#image-aquabookstore {
+    width: 50%;
+    height: 500px;
+}
+
+#wrapper-image-project {
+    display: flex;
+    justify-content: center;
+}
+
+
+#wrapper-icon-projects {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.icon-projects {
+    width: 30px;
+    height: 30px;
+}
